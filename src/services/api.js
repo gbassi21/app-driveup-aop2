@@ -2,7 +2,7 @@
 // 1) Crie um projeto no MockAPI
 // 2) Crie os recursos "usuarios" e "agendamentos"
 // 3) Cole abaixo o "API endpoint" do seu projeto (sem barra no final)
-export const API_URL = 'https://COLE_SEU_ID_AQUI.mockapi.io/api/v1';
+export const API_URL = 'https://6afca101892984c4494bcc0d.mockapi.io/api/v1';
 
 // Função genérica com tratamento de erros (evita que o App quebre)
 async function request(endpoint, options = {}) {
