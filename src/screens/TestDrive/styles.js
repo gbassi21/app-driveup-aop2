@@ -20,7 +20,7 @@ export default StyleSheet.create({
     overflow: 'hidden',
   },
   pickerErro: { borderColor: colors.error, borderWidth: 2 },
-  picker: { color: colors.text, borderWidth: 0, backgroundColor: 'transparent', minHeight: 48, paddingHorizontal: 8 },
+  picker: { color: colors.text, borderWidth: 0, backgroundColor: 'transparent', minHeight: 48, outlineStyle: 'none', paddingHorizontal: 8 },
   erroLinha: { flexDirection: 'row', alignItems: 'center', marginTop: 6 },
   erroTexto: { color: colors.error, fontSize: 13, marginLeft: 4 },
   resumoVeiculo: {

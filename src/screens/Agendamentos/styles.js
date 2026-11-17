@@ -19,7 +19,7 @@ export default StyleSheet.create({
     overflow: 'hidden',
   },
   pickerIcone: { marginRight: 4 },
-  picker: { flex: 1, color: colors.text, borderWidth: 0, backgroundColor: 'transparent', minHeight: 48 },
+  picker: { flex: 1, color: colors.text, borderWidth: 0, backgroundColor: 'transparent', minHeight: 48, outlineStyle: 'none' },
   contador: { fontSize: 14, color: colors.textMuted, marginTop: 12, marginBottom: 12 },
   centro: {
     flex: 1,
